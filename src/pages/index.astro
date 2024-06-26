@@ -103,22 +103,17 @@ const metadata = {
   <Content
     isReversed
     tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    title="Go Iot Platform's Blueprint: Fun Meets Functionality!"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Under continuous development',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Complete core businesses such as massive MQTT client management, data analysis, and production planning.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'Developing with Golang',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
-      },
-      {
-        title: 'Cross-browser compatibility',
-        description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Golang is loved by developers for its simplicity, efficiency, concurrency support, and powerful standard libraries.',
       },
     ]}
     image={{
@@ -142,23 +137,18 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Quick Access',
+        description: `Effortlessly connect devices using the MQTT protocol for transmission, the entire process takes only 1 minute.`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Free Customization',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'This project supports source code delivery. You can make modifications according to your own needs, or you can contact us for relevant development and submit Issues through GitHub.',
       },
       {
-        title: 'Fully responsive design',
+        title: 'Microservice Architecture',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
-      },
-      {
-        title: 'Integration of media',
-        description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          "The project adopts a microservices architecture and is divided into MQTT management end, message queue consumption end, and backend management end.",
       },
     ]}
     image={{
@@ -182,21 +172,21 @@ const metadata = {
       {
         title: 'Enhanced user engagement',
         description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
+          'We hope that users can collaborate with us to build a community for the Go IoT Platform, communicate their opinions on the functional modules, and make the project more user-friendly.',
       },
       {
         title: 'Continuous improvement',
         description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
+          'If you encounter any issues during use, you can contact us by submitting an issue, and we will continue to finalize this issue until it is fixed.',
       },
       {
         title: 'Time and resource efficiency',
         description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
+          'We hope that users can greatly reduce unnecessary development investment and quickly and efficiently build their own IoT infrastructure platform when using this project.',
       },
       {
         title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
+        description: `Join the growing Go IoT Platform community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
       },
     ]}
     image={{
@@ -214,24 +204,24 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="Get your dream IoT-Platform up and running in no time with Go IoT Platform."
     items={[
       {
         title: 'Step 1: <span class="font-medium">Download</span>',
         description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
+          "Using GitHub to download our project, it is usually recommended that you use the dev branch, which will bring more new features to our development version.",
         icon: 'tabler:package',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
+        title: 'Step 2: <span class="font-medium">Compile</span>',
         description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
+          "When you want the project to be downloaded locally, you need to perform dependency installation and compile the project",
         icon: 'tabler:letter-case',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">Configuration</span>',
         description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
+          'After compilation, you need to make basic configurations for the startup environment, including MySQL, Mongo, etc',
         icon: 'tabler:paint',
       },
       {
@@ -248,60 +238,45 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
+    title="Most used Feature"
+    subtitle="Use the following functions to quickly establish an IoT data platform."
     tagline="Components"
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
+        title: 'Storage',
+        description: "Using Influxdb, MongoDB, Redis, and MySQL as data storage solutions",
+        icon: 'flat-color-icons:database',
       },
       {
-        title: 'Heros',
+        title: 'Installation Record',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
+          "Capable of recording device installation logs",
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
+        title: 'Data Calculator',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
+          'Support offline data calculation',
         icon: 'flat-color-icons:approval',
       },
       {
-        title: 'Content',
+        title: 'Alarm Analysis',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
+          "Support interval alarms and scripted alarms to maximize the satisfaction of alarm scenarios",
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Call-to-Action',
+        title: 'High Availability',
         description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
+          'Core MQTT client management supports multi node deployment and achieves high availability',
         icon: 'flat-color-icons:advertising',
       },
       {
         title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
+        description: 'Basic version is free and supports customized services',
         icon: 'flat-color-icons:currency-exchange',
       },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
+     
     ]}
   >
     <Fragment slot="bg">
@@ -322,41 +297,21 @@ const metadata = {
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    title="Frequently Go IoT Platform Questions"
+    subtitle="Dive into the following questions to gain insights into the powerful features that Go IoT Platform offers and how it can elevate your IoT development journey."
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why AstroWind?',
+        title: 'Why Go IoT Platform?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          "The Go IoT platform integrates the infrastructure required for an IoT project, allowing you to quickly invest in business development instead of dealing with tedious transactions.",
       },
       {
         title: 'What do I need to start?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
+          'Attempt to simulate an MQTT client to complete data transmission, and then view the data through this platform.',
+      }
     ]}
   />
 
@@ -364,10 +319,10 @@ const metadata = {
 
   <Stats
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'Downloads', amount: '4K' },
+      { title: 'Stars', amount: '1K' },
+      { title: 'Forks', amount: '0.2K' },
+      { title: 'Users', amount: '4K' },
     ]}
   />
 
@@ -385,7 +340,7 @@ const metadata = {
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Go IoT Platform
     </Fragment>
 
     <Fragment slot="subtitle">

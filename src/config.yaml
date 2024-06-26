@@ -3,7 +3,7 @@ site:
   site: 'https://www.producthunt.com/posts/go-iot-platform'
   base: '/'
   trailingSlash: false
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ""
 
 # Default SEO metadata
 metadata:
@@ -68,4 +68,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

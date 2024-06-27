@@ -1,6 +1,6 @@
 site:
   name: 'Go IoT Platform'
-  site: 'https://go-iot-plat-load.pages.dev/'
+  site: 'https://go-iot-plat-load.pages.dev'
   base: '/'
   trailingSlash: false
   googleSiteVerificationId: "Fqv9hAyD2E_rk3WqbMs9ZZ26e5UbnYVx1IJl7yltcWM"

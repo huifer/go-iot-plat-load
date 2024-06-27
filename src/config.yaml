@@ -1,6 +1,6 @@
 site:
   name: 'Go IoT Platform'
-  site: 'https://go-iot-plat-load.vercel.app/'
+  site: 'https://go-iot-plat-load.pages.dev/'
   base: '/'
   trailingSlash: false
   googleSiteVerificationId: ""

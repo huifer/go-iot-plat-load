@@ -1,6 +1,6 @@
 site:
   name: 'Go IoT Platform'
-  site: 'https://www.producthunt.com/posts/go-iot-platform'
+  site: 'https://go-iot-plat-load.vercel.app/'
   base: '/'
   trailingSlash: false
   googleSiteVerificationId: ""

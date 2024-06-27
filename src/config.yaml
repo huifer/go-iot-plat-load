@@ -10,7 +10,7 @@ metadata:
   title:
     default: 'Go IoT Platform'
     template: '%s — Go IoT Platform'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "Go IoT Platform, a high-efficiency and scalable Internet of Things solution developed with the Go language. This platform focuses on providing stable and reliable MQTT client management, as well as comprehensive processing and analysis of MQTT reported data."
   robots:
     index: true
     follow: true
